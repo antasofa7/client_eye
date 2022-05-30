@@ -1,0 +1,108 @@
+.main {
+    display: flex;
+    height: 100vh;
+}
+
+.sectionLeft {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    height: 100vh;
+    position: relative;
+    
+}
+
+.wrapper {
+    width: 532px;
+
+}
+
+.wrapper > h1 {
+    font-size: 40px;
+    font-weight: 600;
+    color: var(--textPrimaryColor);
+    margin-right: 17px;
+}
+
+.btnSocial {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+
+.line {
+    display: flex;
+    align-items: center;
+}
+
+.line > div {
+    width: 239px;
+    height: 1px;
+    border: 1px solid #DEE0E2
+}
+
+.line > p {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--textPrimaryColor);
+    padding: 16px;
+}
+
+.wrapperNameInput {
+    display: flex;
+    gap: 26px;
+}
+
+.term {
+    display: flex;
+    margin-top: 22px;
+    margin-bottom: 25px;
+}
+
+.term > input {
+    width: 24px;
+    height: 24px;
+    border: 2px solid var(--borderColor);
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.term > p {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--textSecondaryColor);
+}
+
+.term > p > a {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--textPrimaryColor);
+}
+
+.sectionRight {
+    width: 50vw;
+    height: 100vh;
+    position: relative;
+}
+
+.backgroundImage {
+    border-bottom-left-radius: 100px;
+}
+
+.sectionRight > div {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+}
+
+.sectionRight > div > p {
+    font-size: 54px;
+    font-weight: 600;
+    color: var(--whiteColor);
+}
+

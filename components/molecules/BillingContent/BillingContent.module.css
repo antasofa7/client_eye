@@ -1,0 +1,575 @@
+.container {
+    display: flex;
+    column-gap: 30px;
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    background-color: var(--backgroundColor);
+}
+
+.card {
+    width: 100%;
+    padding: 30px 40px;
+    border-radius: 20px;
+    background-color: var(--whiteColor);
+}
+
+/* Billing Information */
+.paymentAndBilling .title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.paymentAndBilling .title > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33px;
+    height: 33px;
+    padding: 6px;
+    border-radius: 9px;
+    background-color: #00BB8E1A;
+    margin-right: 22px;
+}
+
+.paymentAndBilling .title > h1 {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--textPrimaryColor);
+}
+
+.paymentAndBillingCard {
+    width: 100%;
+    border: 1px solid var(--borderColor);
+    border-radius: 16px;
+}
+
+.paymentAndBillingCard > div {
+    display: flex;
+}
+
+.payment {
+    width: 50%;
+    padding: 24px 28px;
+    border-right: 1px solid var(--borderColor);
+}
+
+.payment > h2, .billing > h2 {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--textPrimaryColor);
+    margin-bottom: 23px;
+}
+
+.paymentCard {
+    display: flex;
+    justify-content: space-between;
+    padding: 21px 19px;
+    background-color: var(--inputColor);
+    border: 1px solid var(--borderColor);
+    border-radius: 10px;
+}
+
+.paymentCard > div {
+    display: flex;
+}
+
+.paymentCard > div > div {
+    margin-left: 20px;
+    font-weight: 500;
+    color: var(--textPrimaryColor);
+}
+
+.paymentCard > div > div > p:first-child {
+    font-size: 15px;
+    margin-bottom: 2px;
+}
+
+.paymentCard > div > div > p {
+    font-size: 13px;
+}
+
+.billing {
+    width: 50%;
+    padding: 24px 28px;
+}
+
+.billing > div {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 13px;
+}
+
+.billing > div > p {
+    font-weight: 500;
+    font-size: 13px;
+    color: var(--textPrimaryColor);
+    margin-left: 19px;
+}
+
+.paymentAndBillingCard > div:nth-child(2) {
+    justify-content: space-between;
+    align-items: center;
+    padding: 11px 16px;
+    border-top: 1px solid var(--borderColor);
+}
+
+.paymentAndBillingCard > div:nth-child(2) > p {
+    font-weight: 500;
+    font-size: 12px;
+    color: var(--textPrimaryColor);
+}
+
+.paymentAndBillingCard > div:nth-child(2) > a {
+    padding: 6px 33px;
+    border-radius: 6px;
+    background-color: var(--blueColor);
+}
+
+.paymentAndBillingCard > div:nth-child(2) > a > span {
+    font-weight: 500;
+    font-size: 12px;
+    color: var(--whiteColor);
+    margin-left: 10px;
+}
+
+/* Transaction History */
+.transaction {
+    margin-top: 32px;
+}
+
+.transaction > .title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.transaction > .title > div {
+    display: flex;
+    align-items: center;
+}
+
+.transaction > .title > div > div {
+    padding: 6px 8px;
+    border-radius: 9px;
+    background-color: #FF915833;
+    margin-right: 22px;
+}
+
+.transaction > .title > div > h1 {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--textPrimaryColor);
+}
+
+.transaction .download {
+    display: flex;
+    justify-content: center;
+    width: 161px;
+    border-radius: 8px;
+    padding: 8px 14px;
+    background-color: var(--inputColor);
+    border: 1px solid var(--borderColor);
+}
+
+.transaction .download > span {
+    font-size: 12px;
+    font-weight: 500;
+    color: #545658;
+    margin-left: 11px;
+}
+
+.transaction > table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 10px; 
+    margin-top: -10px;
+}
+
+.transaction > table > thead {
+    color: var(--textPrimaryColor);
+}
+
+.transaction > table th {
+    border-bottom: 1px solid var(--borderColor);
+}
+
+.transaction > table > tbody {
+    color: #3A3E43;
+}
+
+.transaction > table th, .transaction > table td {
+    text-align: start;
+    padding: 10px 16px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.transaction > table tbody td {
+    background-color: var(--inputColor);
+    border-top: 1px solid var(--borderColor);
+    border-bottom: 1px solid var(--borderColor);
+}
+
+.transaction > table tbody td:first-child {
+    border-radius: 8px 0 0 8px;
+    border-left: 1px solid var(--borderColor);
+}
+  
+.transaction > table tbody td:last-child {
+    border-radius: 0 8px 8px 0;
+    border-right: 1px solid var(--borderColor);
+}
+
+.transaction > table .actions, .transaction > table tbody td:nth-child(4) > div {
+    display: flex;
+    align-items: center;
+}
+
+.transaction > table tbody td:nth-child(4) > div > p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #3A3E43;
+    margin-left: 8px;
+}
+
+.transaction > table td:nth-child(6) {
+    display: flex;
+    align-items: center;
+}
+
+.transaction > table td:nth-child(6) a {
+    width: 28px;
+    height: 28px;
+    padding: 5px;
+    margin-right: 16px;
+    background-color: var(--whiteColor);
+    border-radius: 5px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 26px;
+}
+
+.pagination div {
+    display: flex;
+    border-radius: 5px;
+}
+
+.pagination p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #545658;
+}
+
+.pagination a {
+    display: flex;
+    align-items: center;
+    padding: 7px 11px;
+    background-color: var(--whiteColor);
+    border: 1px solid var(--borderColor);
+}
+
+.pagination a:first-child {
+    border-radius: 5px 0 0 5px;
+}
+
+.pagination a:last-child {
+    border-radius: 0 5px 5px 0;
+}
+
+/* Account Overview */
+.container > aside {
+    min-width: 390px ;
+}
+
+.container > aside > section:first-child {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.container > aside > section:first-child > div {
+    position: absolute;
+    top: 29px;
+    left: 29px;
+    color: var(--whiteColor);
+}
+
+.container > aside > section:first-child > div > h1 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 9px;
+}
+
+.container > aside > section:first-child > div > h2 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: -9px;
+}
+
+.container > aside > section:first-child > div > p {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.container > aside > section:first-child > div > a {
+    padding: 8px 28px;
+    background-color: var(--whiteColor);
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #1A1D1F;
+}
+
+.container > aside > section:last-child {
+    width: 390px;
+    padding: 30px;
+    background-color: var(--whiteColor);
+    border-radius: 20px;
+}
+
+.container > aside > section:last-child > .title, .container > aside > section:last-child > .title > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container > aside > section:last-child > .title {
+    margin-bottom: 32px;
+}
+
+.container > aside > section:last-child > .title > div > div {
+    width: 33px;
+    height: 33px;
+    padding: 8px;
+    border-radius: 9px;
+    background-color: #00B9761A;
+}
+
+.container > aside > section:last-child > .title > div > h1 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 16px;
+}
+
+.container > aside > section:last-child > .title > div:last-child {
+    width: 28px;
+    height: 28px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid var(--borderColor);
+}
+
+.container > aside > section:last-child > .savedCardOverflow {
+    width: 100%;
+    position: relative;
+}
+
+.container > aside > section:last-child > .savedCardOverflow .item {
+    position: relative;
+    height: 240px;
+}
+
+.container > aside > section:last-child > .savedCardOverflow .item > div {
+    position: absolute;
+    top: 22px;
+    left: 24px;
+    width: 80%;
+}
+
+.container > aside > section:last-child > .savedCardOverflow .item > div > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container > aside > section:last-child > .savedCardOverflow .item > div > div:nth-child(1) {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--whiteColor);
+    margin-bottom: 40px;
+}
+
+.container > aside > section:last-child > .savedCardOverflow .item > div > div:nth-child(2) {
+    font-size: 12px;
+    font-weight: 800;
+    color: var(--whiteColor);
+    margin-bottom: 46px;
+}
+
+.container > aside > section:last-child > .savedCardOverflow .item > div > p {
+    font-size: 10px;
+    font-weight: 500;
+    margin-bottom: 2px;
+}
+
+.container > aside > section:last-child > .savedCardOverflow .item > div > div:last-child {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.container > aside > section:last-child > .savedCardOverflow .item > div > div:last-child > p:last-child {
+    font-size: 12px;
+}
+
+.container > aside > section:last-child > .cardEnding {
+    display: flex;
+    justify-content: space-between;
+    padding: 21px 19px;
+    background-color: var(--inputColor);
+    border: 1px solid var(--borderColor);
+    border-radius: 10px;
+    margin-top: 16px;
+}
+
+.container > aside > section:last-child > .cardEnding > div {
+    display: flex;
+}
+
+.container > aside > section:last-child > .cardEnding > div > div {
+    margin-left: 20px;
+    font-weight: 500;
+    color: var(--textPrimaryColor);
+}
+
+.container > aside > section:last-child > .cardEnding > div > div > p:first-child {
+    font-size: 13px;
+    margin-bottom: 2px;
+}
+
+.container > aside > section:last-child > .cardEnding > div > div > p {
+    font-size: 11px;
+}
+
+.btnCta {
+    display: flex;
+    column-gap: 24px;
+    margin-top: 33px;
+}
+
+.btnCta > button {
+    height: 40px;
+    border-radius: 8px;
+    padding: 10px 40px;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
+
+.btnCta > button:first-child {
+    display: flex;
+    align-items: center;
+    background-color: var(--blueColor);
+    color: var(--whiteColor);
+}
+
+.btnCta > button:first-child p {
+    margin-left: 6px;
+}
+
+.btnCta > button:last-child {
+    background-color: var(--inputColor);
+    border: 1px solid var(--borderColor);
+    color: #545658;
+}
+
+.modal {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #23262FCC;
+    z-index: 10;
+}
+
+.modal .card {
+    width: 501px;
+    padding: 30px;
+    transition: 3s ease-in-out;
+    animation: fade 3s;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+        transform: translateY(-500px);
+    }
+    100% {opacity: 1;}
+}
+
+.modal .card::before {
+    opacity: 0;
+}
+
+.modal .card > div:nth-child(1) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal .card > div:nth-child(1) > div {
+    display: flex;
+    align-items: center;
+}
+
+.modal .card > div:nth-child(1) > div > div, .modal .card > div:nth-child(1) > button {
+    width: 33px;
+    height: 33px;
+    padding: 8px;
+    border-radius: 9px;
+    border: none;
+}
+
+.modal .card > div:nth-child(1) > div > div {
+    background-color: #00B9761A;
+}
+
+.modal .card > div:nth-child(1) > button {
+    background-color: var(--inputColor);
+    cursor: pointer;
+}
+
+.modal .card > div:nth-child(1) > div > h1 {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--textPrimaryColor);
+    margin-left: 16px;
+}
+
+.modal .card > div:nth-child(2) {
+    margin-top: 32px;
+}
+
+.modal .card .wrapperInput {
+    display: flex;
+    gap: 15px;
+}
+
+.modal .card > div:nth-child(3) {
+    margin-top: 25px;
+}
+
+.modal .card > div:nth-child(3) > h2 {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--textPrimaryColor);
+    margin-bottom: 20px;
+}
+
+.modal .card > div:nth-child(4) {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-top: 29px;
+}

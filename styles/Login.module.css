@@ -1,0 +1,104 @@
+.main {
+    display: flex;
+    height: 100vh;
+}
+
+.sectionLeft {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    height: 100vh;
+    position: relative;
+    
+}
+
+.wrapper {
+    width: 532px;
+
+}
+
+.hiText {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--textPrimaryColor);
+}
+
+.welcome {
+    display: flex;
+    align-items: center;
+}
+
+.welcome > h1 {
+    font-size: 40px;
+    font-weight: 600;
+    color: var(--textPrimaryColor);
+    margin-right: 17px;
+}
+
+.btnSocial {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+
+.continueText {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--textPrimaryColor);
+    margin-top: 35px;
+    margin-bottom: 18px;
+}
+
+.rememberAndForgot {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 22px;
+    margin-bottom: 25px;
+}
+
+.rememberAndForgot > div, .rememberAndForgot > div a {
+    display: flex;
+}
+
+.rememberAndForgot > div > input {
+    width: 24px;
+    height: 24px;
+    border: 2px solid var(--borderColor);
+    border-radius: 4px;
+}
+
+.rememberAndForgot > div  p {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--textPrimaryColor);
+    margin-left: 10px;
+}
+
+.sectionRight {
+    width: 50vw;
+    height: 100vh;
+    position: relative;
+    border-radius: 50px;
+}
+
+.backgroundImage {
+    border-bottom-left-radius: 100px;
+}
+
+.sectionRight > div {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+}
+
+.sectionRight > div > p {
+    font-size: 54px;
+    font-weight: 600;
+    color: var(--whiteColor);
+}
+

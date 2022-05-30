@@ -1,0 +1,81 @@
+.container {
+    width: 100%;
+    height: 100vh;
+}
+
+.container > main {
+    display: flex;
+}
+
+.container > main > section {
+    max-width: 75%;
+    padding: 68px 85px 75px 98px;
+}
+
+.container > main > section > div {
+    border-bottom: 1px solid var(--borderColor);
+    padding-bottom: 33px;
+}
+
+.container > main > section > div > h2 {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--textSecondaryColor);
+    margin-bottom:3px;
+}
+
+.container > main > section > div > h1 {
+    font-size: 40px;
+    font-weight: 600;
+    color: var(--textPrimaryColor);
+    margin-bottom: 19px;
+}
+
+.container > main > section > div > h4 {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--textPrimaryColor);
+    margin-bottom: 23px;
+}
+
+.container > main > section > div > p {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--textPrimaryColor);
+    line-height: 31px;
+}
+
+.container > main > section > article {
+    padding-top: 25px;
+}
+
+.container > main > section > article > h3 {
+    font-size: 22px;
+    font-weight: 500;
+    color: var(--textPrimaryColor);
+    margin-bottom: 16px;
+}
+
+.container > main > section > article > p {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--textPrimaryColor);
+    line-height: 31px;
+}
+
+.container > main > section > article > p > a {
+    color: var(--blueColor);
+}
+
+.container > main > aside {
+    width: 25%;
+    padding: 122px 38px;
+    border-left: 1px solid var(--borderColor);
+}
+
+.container > main > aside > h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--textPrimaryColor);
+    margin-bottom: 19px;
+}

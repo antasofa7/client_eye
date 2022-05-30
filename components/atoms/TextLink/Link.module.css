@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.text {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--textSecondaryColor);
+    margin-right: 10px;
+}
+
+.text span {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--textPrimaryColor);
+}

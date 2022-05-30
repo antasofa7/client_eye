@@ -1,0 +1,141 @@
+.container {
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    background-color: var(--backgroundColor);
+}
+
+.card {
+    width: 100%;
+    padding: 30px 40px;
+    border-radius: 20px;
+    background-color: var(--whiteColor);
+}
+
+.card > .title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.card > .title > div {
+    display: flex;
+    align-items: center;
+}
+
+.card > .title > div > div {
+    padding: 6px 8px;
+    border-radius: 9px;
+    background-color: #FF915833;
+    margin-right: 22px;
+}
+
+.card > .title > div > h1 {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--textPrimaryColor);
+}
+
+.upload {
+    display: flex;
+    justify-content: center;
+    width: 161px;
+    border-radius: 8px;
+    padding: 8px 14px;
+    background-color: var(--blueColor);
+}
+
+.upload > span {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--whiteColor);
+    margin-left: 11px;
+}
+
+.card > table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 10px; 
+    margin-top: -10px;
+}
+
+.card > table > thead {
+    color: var(--textPrimaryColor);
+}
+
+.card > table th {
+    border-bottom: 1px solid var(--borderColor);
+}
+
+.card > table > tbody {
+    color: #3A3E43;
+}
+
+.card > table th, .table td {
+    text-align: start;
+    padding: 10px 16px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.card > table tbody td {
+    background-color: var(--inputColor);
+    border-top: 1px solid var(--borderColor);
+    border-bottom: 1px solid var(--borderColor);
+}
+
+.card > table tbody td:first-child {
+    border-radius: 8px 0 0 8px;
+    border-left: 1px solid var(--borderColor);
+}
+  
+.card > table tbody td:last-child {
+    border-radius: 0 8px 8px 0;
+    border-right: 1px solid var(--borderColor);
+}
+
+.card > table .actions {
+    display: flex;
+}
+
+.card > table .actions .icon {
+    padding: 5px;
+    margin-right: 16px;
+    background-color: var(--whiteColor);
+    border-radius: 5px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 26px;
+}
+
+.pagination div {
+    display: flex;
+    border-radius: 5px;
+}
+
+.pagination p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #545658;
+}
+
+.pagination a {
+    display: flex;
+    align-items: center;
+    padding: 7px 11px;
+    background-color: var(--whiteColor);
+    border: 1px solid var(--borderColor);
+}
+
+.pagination a:first-child {
+    border-radius: 5px 0 0 5px;
+}
+
+.pagination a:last-child {
+    border-radius: 0 5px 5px 0;
+}

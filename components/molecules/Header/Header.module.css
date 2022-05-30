@@ -1,0 +1,93 @@
+.container {
+    display: flex;
+    align-items: center;
+    background-color: var(--whiteColor);
+    width: 100%;
+    height: 85px;
+    padding: 0 30px;
+    border-bottom: 1px solid var(--borderColor);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    width: 340px;
+    border-right: 1px solid var(--borderColor);
+}
+
+.logo > h2 {
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--textPrimaryColor);
+    margin-left: 8px;
+}
+
+.container > nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-left: 37px;
+}
+
+.container > nav > .link > a {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--textSecondaryColor);
+    margin-right: 25px;
+}
+
+.container > nav > .input {
+    width: 50%;
+    padding-right: 100px;
+}
+
+.container > nav > .button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 448px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.container > nav > .button > a {
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+
+.language {
+    border: 2px solid var(--borderColor);
+    border-radius: 10px;
+    padding: 11px 13px;
+    background-color: var(--whiteColor);
+    color: var(--textSecondaryColor);
+    margin-right: 27px;
+}
+
+.language > span, .coin > span {
+    margin: 0 8px;
+}
+
+.signin {
+    border-radius: 20px;
+    padding: 10px 36px;
+    background-color: var(--blueColor);
+    color: var(--whiteColor);
+}
+
+.coin {
+    display: flex;
+    justify-content: center;
+    width: 115px;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: var(--blueColor);
+    color: var(--whiteColor);
+}
+
+.icon {
+    margin-left: 30px;
+}
+
